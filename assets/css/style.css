@@ -1,0 +1,318 @@
+
+div.sticky {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bi {
+    margin-right: 10px;
+    margin-left: 1.5cm;
+  }
+  
+  input.form-control {
+    flex: 1;
+  }
+  
+
+  .my-nav-link input {
+    width: 100px;
+    border: none;
+    outline: none;
+    flex: 1;
+    margin-left: 1px;
+  }
+  
+  
+  
+  
+
+.btn {
+    background-color: rgb(222, 16, 16);
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn i{
+    margin: 0;
+  }
+
+  .btnSlide {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+
+  .nav-item.p{
+    padding-left: 10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+.my-nav-link {
+    color: #000000; /* Change the font color to red */
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 10px; /* Change the font size to 18px */
+}
+
+.my-nav-link.active {
+    color: #000000;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 30px;
+    text-decoration: none;
+    
+     /* Change the font color for the active link to green */
+}
+
+.bs-link{
+    background-color: #000000;
+}
+
+
+  
+
+
+.nav-item{
+    color: #000000; /* Change the font color to red */
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 5px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+        
+      
+}
+
+.carousel-item img {
+   
+    height: 500px;
+  }
+  
+
+.nav-link{
+    color: #000000;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 30px;
+    text-decoration: none;
+    
+}
+
+#decreaseSize,#normal,#increaseSize{
+  font-size: 0.5cm;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+#light {
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: #a6a1a1;
+  width: 30px;
+  height: 30px;
+  font-size: 0.5cm;
+ 
+  position: relative;
+  top: 18px;
+}
+
+#dark{
+  border: 1px solid rgb(174, 173, 173);
+  border-radius: 50%;
+  background-color: #c7bfbf;
+  width: 30px;
+  height: 30px;
+  font-size: 0.5cm;
+  
+  position: relative;
+  top: 18px;
+}
+
+#decreaseSize a {
+  text-decoration: none;
+  color: #000;
+}
+
+#normal a {
+  text-decoration: none;
+  color: #000;
+}
+
+#increaseSize a {
+  text-decoration: none;
+  color: #000;
+}
+
+#light a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#dark a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.input-group.mb-3{
+    width: 120px;
+    height: 15px;
+}
+.icon {
+    width: 10px; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+    fill: #333; /* Set the fill color of the icon */
+    margin-right: 10px; /* Add some spacing to the right of the icon */
+}
+
+.form-control {
+    width: 120px;
+    height: 20px;
+    display: flex; /* Align the icon and input horizontally */
+    align-items: center; /* Vertically center the icon and input */
+}
+
+h5{
+    color: rgb(254, 254, 0);
+    font-size: 1cm;
+    
+}
+
+div>p{
+    font-weight: bold;
+    font-size: 0.5cm;
+}
+
+.carousel-caption {
+    position: absolute;
+  bottom: 10vh;
+  left: 50vw;
+  right: 18vw;
+   text-align: left; 
+  }
+
+  
+  span .nav-item i {
+    font-size:30px;
+    color: rgb(145, 145, 150);
+  
+  }
+
+  span{
+    padding: 1cm;
+  }
+
+  .dropdown {
+    text-align: center;
+    color: #000000;
+    background-color: aliceblue;
+  }
+
+  #dropdownMenuButton {
+    margin-left: 10px;
+    width: 80px;
+    height: fit-content;
+    
+  }
+  
+
+  
+  .dropdown-toggle {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 250px;
+  }
+
+  .dropdown-toggle:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 250px;
+  }
+  
+  
+  
+  .dropdown p{
+    font-size: 17px;
+    color: rgb(86, 86, 213);
+    font-weight: 400;
+
+  }
+  
+  .dropdown h6{
+    font-size: 40px;
+    margin: 1cm;
+  }
+
+  .dropdown h4 {
+    font-size: 30px;
+    display: inline;
+    padding-right: 0.5cm;
+  }
+
+  main .nav-item i {
+    font-size:30px;
+    color: rgb(255, 255, 255);
+  
+  }
+
+  
+
+  main .nav-item{
+    
+    background-color: rgb(28, 28, 214);
+    border-radius: 8px;
+    padding: 2cm;
+    color: white;
+    width: 200px;
+    height: 90px;
+    margin: 1cm;
+  } 
+
+  main .nav-item a{
+    color: white;
+  }
+  
+
+  main{
+    margin: 1cm;
+  }
+
+ 
+  
+  
+  
+  
+
+
+
+
